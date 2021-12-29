@@ -11,6 +11,8 @@ if [[ $OSTYPE == "darwin"* ]]; then
   [ ! -d /Applications/Hammerspoon.app ]    && brew install --cask hammerspoon
   [ ! -d /Applications/Dropbox.app ]        && brew install --cask dropbox
   [ ! -d /Applications/MacPass.app ]        && brew install --cask macpass
+  [ ! -d /Applications/Slack.app ]          && brew install --cask slack
+  [ ! -d /Applications/Discord.app ]        && brew install --cask discord
   [ ! -d /Applications/Amphetamine.app ]    && mas install 937984704
   [ ! -d /Applications/Things3.app ]        && mas install 904280696
   if [ ! -d /Library/Input\ Methods/AquaSKK.app ]; then
