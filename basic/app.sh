@@ -8,7 +8,8 @@ if [[ $OSTYPE == "darwin"* ]]; then
   [ ! -d /Applications/Google\ Chrome.app ] && brew install --cask google-chrome
   [ ! -d /Applications/Alacritty.app ]      && brew install --cask alacritty
   [ ! -d /Applications/Alfred\ 4.app ]      && brew install --cask alfred
-  [ ! -d /Applications/Hammerspoon.app ]    && brew install --cask hammerspoon
+# [ ! -d /Applications/Hammerspoon.app ]    && brew install --cask hammerspoon
+  [ ! -d /Applications/Rectangle.app ]      && brew install --cask rectangle
   [ ! -d /Applications/Dropbox.app ]        && brew install --cask dropbox
   [ ! -d /Applications/MacPass.app ]        && brew install --cask macpass
   [ ! -d /Applications/Slack.app ]          && brew install --cask slack
