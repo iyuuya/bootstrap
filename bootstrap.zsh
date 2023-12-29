@@ -6,3 +6,5 @@ if [[ $OSTYPE == "darwin"* ]]; then
   zsh mac/homebrew.zsh
   zsh mac/app.zsh
 fi
+
+zsh common/dotfiles.zsh
