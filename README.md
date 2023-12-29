@@ -1,6 +1,12 @@
 # bootstrap
 bootstrap of my machine.
 
----
+## Requirements
+- zsh
+- curl
+- git
 
-I'm working in another priavte repository recently. (2023/01/04)
+## Install
+```
+/bin/zsh -c "$(curl -fSsL https://raw.githubusercontent.com/iyuuya/bootstrap/main/install.sh)"
+```
